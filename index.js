@@ -5,4 +5,9 @@ function Scooter(year, color, model){
   this.model = model;
 }
 // Driver with name, age, and experience properties
+function Driver(name, age, experience){
+  this.name = name;
+  this.age = age;
+  this.experience = experience;
+}
 // PickupLocation with address and city properties
